@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,18 +14,31 @@
        <a href="stacja.html"><img src="home.png" alt="stacja"></a>
        <br>
        <a href="obliczenia.html"><img src="znak.png" alt="stacja"></a>
-       <a href="kwerendy.txt">Pobierz dokumenty</a>
+       <a href="kwerendy.txt" download>Pobierz dokumenty</a>
     </div>
     <div class="lewyprawy">
         <div class="lewy">
-
+            <h2>Orientacyjny koszt paliwa</h2>
+            <label for="RodzajPaliwa">Rodzaj paliwa (1-benzyna, 2-olej napędowy):</label>
+            <br>    
+            <input type="number" id="RodzajPaliwa" placeholder=" ">   
+            <br>
+            <label for="litry">Ile litrów?</label>
+            <br>
+            <input type="number" id="litry" placeholder=" ">  
+            <br>
+            <button onclick="oblicz()">OBLICZ</button>
+            <div id="wynik">
+                <p></p>
+            </div>
         </div>
         <div class="prawy">
-            <img src="samochod.png" alt="samochó">
+            <img src="samochod.png" alt="samochó" class="img">
         </div>
     </div>
     <div class="stopka">
         <p>Stronę opracował: 0000000000</p>
     </div>
+    <script src="obliczenia.js"></script>
 </body>
 </html>

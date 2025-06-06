@@ -6,7 +6,7 @@ KW3    UPDATE `samochody` SET `stan`='dobry' WHERE rocznik < 2004;
 
 KW4    CREATE USER 'Jan'@localhost IDENTIFIED BY 'janKowalski1@';
 
-
+KW5    GRANT SELECT, INSERT, UPDATE ON samochody.samochody TO 'Jan'@localhost;
 
 
 

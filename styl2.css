@@ -1,39 +1,76 @@
 
 *{
-    font-family: Garamond;
+    font-family: Cambria;
     margin: 0;
     padding: 0;
+
 }
 .baner{
-    background-color: #3CB371;
+    background-color: rgb(120, 0, 46);
     color: white;
-    font-size:  130%;
+    font-size:  150%;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 .stopka{
-    background-color: #3CB371;
+    background-color: rgb(120, 0, 46);
     color: white;
-    font-size:  130%;
+    font-size:  150%;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
+.menu{
+    display: flex;
+    background-color: rgb(173, 20, 87);
+    text-align: left;
+    color: white;
+    align-items: end;
+}
+
 .lewy{
-    float: left;
-    background-color: #FAEBD7;
-    height: 450 px;
+    background-color: Snow;
+    color: OliveDrab;
+    height: 322 px;
+    justify-content: left;
+    text-align: left;
 }
+.lewy >h2{
+    text-align: center;
+}
+a{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: YellowGreen ;
+}
+table{
+    width: 90%;
+    text-align: center;
+    border:1px solid OliveDrab;
+}
+th,td{
+    border:1px solid OliveDrab;
+}
+
 .prawy{
-    background-color: #FAEBD7;
-    height: 450 px;   
+    display: flex;
+    background-color: rgb(173, 20, 87);
+    height: 322px;
+    justify-content: center;
+    align-items: center;
+
+}
+.img:hover {
+    border:1px dashed;
+    color: YellowGreen;
+
 }
 .lewyprawy{
     display: grid;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 60% 40%;
+}
+p{
+    color: YellowGreen;
+}
 
-}
-img{
-    margin: 15px;
-    border:2px dashed #3CB371;
-    padding: 3 px;
-}
