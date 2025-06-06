@@ -1,0 +1,25 @@
+KW1    SELECT `marka`, `rocznik` FROM `samochody` WHERE `kolor`= "niebieski";
+
+KW2    SELECT COUNT(*) FROM `samochody` WHERE (marka="Toyota" OR marka="Opel") AND stan="bardzo dobry";
+
+KW3    UPDATE `samochody` SET `stan`='dobry' WHERE rocznik < 2004;
+
+KW4    CREATE USER 'Jan'@localhost IDENTIFIED BY 'janKowalski1@';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://egzamin-informatyk.pl/arkusz-praktyczny-inf03-2022-06-02/
